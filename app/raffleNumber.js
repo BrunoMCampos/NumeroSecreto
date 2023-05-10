@@ -6,8 +6,6 @@ function generateRandomNumber() {
     return parseInt(Math.random() * highestValue + 1);
 }
 
-console.log("número secreto: " + secretNumber);
-
 const lowerValueElement = document.getElementById("lower-value");
 lowerValueElement.innerHTML = lowerValue;
 
